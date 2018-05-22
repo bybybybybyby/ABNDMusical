@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ABND Musical</string>
+    <string name="category_now_playing">Now Playing</string>
+    <string name="category_artist">Artists</string>
+</resources>
