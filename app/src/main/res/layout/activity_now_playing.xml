@@ -6,6 +6,14 @@
     >
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:text="@string/now_playing"
+        android:textSize="40sp"
+        android:gravity="center_horizontal"/>
+
+    <TextView
         android:id="@+id/now_playing_title_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
