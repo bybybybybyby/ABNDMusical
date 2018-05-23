@@ -1,8 +1,16 @@
 package com.example.android.abndmusical;
 
-/**
- * Created by Toshiba on 5/21/2018.
- */
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
-public class NowPlayingActivity {
+
+public class NowPlayingActivity extends AppCompatActivity{
+
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_now_playing);
+
+
+        }
 }

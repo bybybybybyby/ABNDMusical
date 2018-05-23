@@ -3,12 +3,8 @@ package com.example.android.abndmusical;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
-
 import java.util.ArrayList;
 
-/**
- * Created by Toshiba on 5/21/2018.
- */
 
 public class ArtistsActivity extends AppCompatActivity{
 
