@@ -14,6 +14,7 @@
         <item name="android:gravity">center_vertical</item>
         <item name="android:padding">16dp</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
     </style>
 
@@ -21,12 +22,14 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
     </style>
 
     <style name="ArtistStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
         <item name="android:textAppearance">?android:textAppearanceSmall</item>
     </style>
 

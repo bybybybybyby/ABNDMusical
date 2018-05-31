@@ -1,18 +1,15 @@
 package com.example.android.abndmusical;
 
 /**
- * Created by Toshiba on 5/21/2018.
- */
-/**
  * {@link Song) Song that contains information about the Artist and Title.
  */
-public class Song {
+class Song {
 
     /** Artist of song */
-    private String mArtist;
+    public String mArtist;
 
     /** Title of song */
-    private String mTitle;
+    public String mTitle;
 
     /**
      * Create a new Song object.
