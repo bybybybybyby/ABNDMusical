@@ -4,7 +4,9 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ListView;
 import android.widget.TextView;
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Find the View that shows the family category
+        // Find the View that shows the artists category
         TextView artists = (TextView) findViewById(R.id.artists);
         artists.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the artists View is clicked on.
